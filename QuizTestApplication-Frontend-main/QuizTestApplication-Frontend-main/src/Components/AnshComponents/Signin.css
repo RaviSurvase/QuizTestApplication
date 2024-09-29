@@ -1,0 +1,163 @@
+
+.background {
+    background: linear-gradient(to right, #1d51b2, #750413e2);
+    height: 91vh;
+    border-radius: 1%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.7%;
+  }
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+ 
+  .form-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .form-subtitle {
+    font-size: 14px;
+    color: #c5c5c5;
+  }
+  
+  .link {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .form-container {
+    background-color: #00000086;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #a8a8a8;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  
+  .forgot-password {
+    font-size: 14px;
+  }
+
+  .forgot-password a:hover{
+    color: rgb(255, 255, 255);
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .or-text {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+ 
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .social-icon {
+    height: 20px;
+    width: 20px;
+  }
+   
+   
